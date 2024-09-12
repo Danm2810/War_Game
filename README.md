@@ -23,3 +23,10 @@ used in the round (e.g. cards[0]). If there is a War and the player has more tha
 their hand, the Card at index 4 will be used in the War where cards[0] represents the card
 in the round, there are three face down cards (e.g. cards[1], cards[2], cards[3]) and the
 next card in the stack (e.g. cards[4] ) is used in the W
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+# Developer Notes: 
+The tests I added verifies the accuracy of the main() method. If the game is
+functioning correctly, there should be 324 rounds when no zipShuffle is
+implemented and 74 rounds when zipShuffle(3) is implemented.
+
